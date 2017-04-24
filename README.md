@@ -1,8 +1,8 @@
 # npmtest-help
 
-test coverage for  [help (v3.0.2)](https://github.com/evanlucas/help)  [![npm package](https://img.shields.io/npm/v/npmtest-help.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-help) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-help.svg)](https://travis-ci.org/npmtest/node-npmtest-help)
+#### basic test coverage for  [help (v3.0.2)](https://github.com/evanlucas/help)  [![npm package](https://img.shields.io/npm/v/npmtest-help.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-help) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-help.svg)](https://travis-ci.org/npmtest/node-npmtest-help)
 
-substack way of --help
+#### substack way of --help
 
 [![NPM](https://nodei.co/npm/help.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/help)
 
@@ -10,7 +10,7 @@ substack way of --help
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-help/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-help/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-help/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-help/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-help/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-help/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-help/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-help/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-help/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-help/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-help/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-help/build/coverage.html/index.html)
 
@@ -72,7 +72,8 @@ substack way of --help
     "scripts": {
         "test": "tap test/test.js --cov"
     },
-    "version": "3.0.2"
+    "version": "3.0.2",
+    "bin": {}
 }
 ```
 
